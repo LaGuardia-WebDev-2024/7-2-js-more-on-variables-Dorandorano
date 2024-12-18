@@ -24,6 +24,16 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  fill(0,0,0)
+  rect(x-51,y-60,20,20)
+   rect(x+51,y-60,20,20)
+   
+   fill(255,45,45)
+   ellipse(x-0,y-20,70,30)
+   
+   x = mouseX;
+y = mouseY;
+  
 
 }
 
